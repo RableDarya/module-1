@@ -1,0 +1,93 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.footer__h {
+    margin-bottom: 40px;
+    text-align: center;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Arial;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; 
+    text-transform: uppercase;
+}
+
+.footer__contacts {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+}
+
+.footer__contacts-location-icon {
+    display: inline-block; 
+    background-image: url(../img/location.svg);
+    width: 34.963px;
+    height: 32px;
+    margin-right: 13px;
+}
+
+.footer__contacts-phone-icon {
+    display: inline-block; 
+    background-image: url(../img/bx_bxs-phone-call.svg);
+    width: 34.963px;
+    height: 32px;
+    margin-right: 13px;
+    padding-top: 13px;
+}
+
+.footer__contacts-mail-icon {
+    display: inline-block; 
+    background-image: url(../img/envelope.svg);
+    width: 34.963px;
+    height: 32px;
+    margin-right: 13px;
+    padding-top: 13px;
+}
+
+.footer__media-vk {
+    display: inline-block; 
+    background-image: url(../img/entypo-social_vk-with-circle.svg);
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-right: 26px;
+}
+
+.footer__links:last-of-type{
+    display: inline-block;
+    margin-bottom: 35px;
+}
+
+.footer__media-tg {
+    display: inline-block; 
+    background-image: url(../img/bi_telegram.svg);
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-right: 26px;
+}
+
+.footer__media-pin {
+    display: inline-block; 
+    background-image: url(../img/foundation_social-pinterest.svg);
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-right: 26px;
+}
+
+.footer__media-smth {
+    display: inline-block; 
+    background-image: url(../img/foundation_social-stumbleupon.svg);
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-right: 26px;
+}
